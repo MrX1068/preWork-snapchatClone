@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body { 
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: #edeef0;
+}
+
+nav img {
+    width: 25px;
+    height: 25px;
+    margin-left: 150px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 15px;
+    margin-right: 150px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+h1,
+h4 {
+    font-weight: 800;
+}
+
+#home {
+    background-color: yellow;
+    width: 100%;
+    height: 630px;
+}
+
+#home h1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 3em;
+}
+
+#home div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.bitmojiImage {
+    width: 100%;
+    height: 100%;
+
+}
+
+.bitmojiNames {
+    width: 75%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+#home div p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3em;
+    margin-right: 40px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 2em;
+    font-weight: 500;
+    color: black;
+    margin-top: 50px;
+   
+}
+.buttons:hover {
+       color: green;
+   }
+    
+   #container h4{
+       padding-top: 20px;
+       font-size: 1.5em;
+
+   }
+   #container ul li {
+       font-weight: lighter;
+       list-style: none;
+       text-align: justify;
+       
+   }
+
+   #container div  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+   
+   .language {
+    display: flex;
+    margin-left: 190px;
+    
+   }
+   #container select {
+       margin-left: 195px;
+       font-weight: lighter;
+       text-align: justify;
+       margin-bottom: 5px;
+   }
+footer {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+   
+    
+}
+  
+footer ul {
+    display: flex;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    margin-right: 600px;
+
+   }

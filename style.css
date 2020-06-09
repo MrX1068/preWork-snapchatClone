@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
 }
-body { 
+
+body {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 10px;
     background: #edeef0;
@@ -12,19 +14,18 @@ body {
 nav img {
     width: 25px;
     height: 25px;
-    margin-left: 150px;
+    margin-left: 125px;
 }
 
 nav ul {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     list-style: none;
     text-align: center;
     font-size: 1.5em;
     padding: 15px;
-    margin-right: 150px;
+    margin-right: 260px;
     font-weight: 800;
     cursor: pointer;
 }
@@ -38,13 +39,13 @@ h4 {
 #home {
     background-color: yellow;
     width: 100%;
-    height: 630px;
+    height: 670px;
 }
 
 #home h1 {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 40px;
     font-size: 3em;
 }
 
@@ -53,7 +54,7 @@ h4 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  
+
 }
 
 .bitmojiImage {
@@ -73,69 +74,86 @@ h4 {
 #home div p {
     display: flex;
     justify-content: center;
-    text-align: center;
+
     font-size: 1.3em;
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 
 .buttons {
     display: flex;
     justify-content: center;
+    text-align: center;
     text-decoration: none;
     padding: 10px;
     font-size: 2em;
-    font-weight: 500;
+    font-weight: 700;
+    letter-spacing: 0.5px;
     color: black;
-    margin-top: 50px;
-   
+    margin: 60px;
+    background: white;
+    border-radius: 25px;
+
+
 }
+
 .buttons:hover {
-       color: green;
-   }
-    
-   #container h4{
-       padding-top: 20px;
-       font-size: 1.5em;
+    color: green;
+}
 
-   }
-   #container ul li {
-       font-weight: lighter;
-       list-style: none;
-       text-align: justify;
-       
-   }
+#container div h4 {
+    margin-top: 20px;
 
-   #container div  {
+    font-size: 1.5em;
+
+}
+
+#container ul li {
+    font-weight: lighter;
+    list-style: none;
+    text-align: justify;
+
+}
+
+#container div {
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-   }
-   
-   .language {
+}
+
+.language {
     display: flex;
     margin-left: 190px;
-    
-   }
-   #container select {
-       margin-left: 195px;
-       font-weight: lighter;
-       text-align: justify;
-       margin-bottom: 5px;
-   }
+
+}
+
+#container select {
+    margin-top: 10px;
+    margin-left: 195px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-bottom: 5px;
+    opacity: 40%;
+
+}
+
 footer {
-    margin-top: 20px;
+
     background-color: black;
     color: white;
-   
-    
+
+
 }
-  
+
 footer ul {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
     text-align: center;
     font-weight: lighter;
     font-size: 1.4em;
     margin-right: 600px;
 
-   }
+}
